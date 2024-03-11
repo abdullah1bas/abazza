@@ -80,7 +80,7 @@ function startCountStats(el) {
     day = hour * 24,
     // month = day * 30,
     year = day * 365;
-    const countDown = new Date('2023-12-31 23:59:59');
+    const countDown = new Date('2025-12-31 23:59:59');
 
   const x = setInterval(function () {
     const now = new Date().getTime();
